@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container mt-5 text-white">
+      <div class="jumbotron bg-danger text-center">
+    <h1>Student Registration Form</h1>
+    <form  method="post">
+    {{form.as_p}}
+    {%csrf_token%}
+    <input type="submit" name="" value="REGISTER">
+  </body>
+</html>
